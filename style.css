@@ -4,6 +4,30 @@ h1 {
     padding: 50px;
     display: inline;
 }
+
+h2{
+    size: 30px;
+}
+
+p {
+    size: 20px;
+    color: gray;
+}
+
+span {
+    display: inline;
+    background-color: rgb(3, 3, 63);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 246px;
+    height: 180px;
+}
+
 .container {
     border: 2px solid grey;
     border-left: none;
@@ -12,28 +36,17 @@ h1 {
     padding: 20px;
     padding-left: 50px;
 }
-img {
-    width: 246px;
-    height: 180px;
-    ;
+
+.flex {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-span {
-    display: inline-block;
-    background-color: rgb(3, 3, 63);
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-}
-h2{
-    width: 5px;
-    display: inline;
-    size: 30px;
-}
-p {
-    size: 20px;
-    color: gray;
-}
+
 .text {
+    margin-top: 10px;
     size: 16px;
     color: #21243D;
     align-self: center;
