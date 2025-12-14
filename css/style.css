@@ -55,7 +55,7 @@ header {
 }
 
 .cards-section {
-    width: min(100%, 1244px);
+    width: calc(1440px/1244 * 100%);
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
@@ -89,5 +89,4 @@ button {
     line-height: 32px;
     letter-spacing: 0%;
     color: #FFFFFF;
-
 }
