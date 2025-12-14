@@ -53,13 +53,15 @@ header {
     letter-spacing: 0%;
     color: #F56013;
 }
+
 .cards-section {
     width: min(100%, 1244px);
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
-    
+
 }
+
 .cards-article {
     width: 400px;
     padding: 30px;
@@ -67,10 +69,12 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 .img-building {
     width: 340px;
     align-self: center;
 }
+
 button {
     width: 145px;
     height: 45px;
@@ -79,11 +83,11 @@ button {
     border: none;
     border-radius: 10px;
     background-color: #F56013;
-font-weight: 400;
-font-style: Regular;
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0%;
-color: #FFFFFF;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
 
 }
